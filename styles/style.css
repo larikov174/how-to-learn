@@ -30,6 +30,7 @@ p {
 }
 
 .logo {
+  z-index: 1;
   width: 183px;
   height: 32px;
   background-size: cover;
@@ -310,7 +311,7 @@ p {
   flex-basis: 711px;
 }
 
-.logo_pace-footer {
+.logo_place-footer {
   height: 35px;
   background-image: url(/images/logo_place_footer.svg);
 }
@@ -342,7 +343,7 @@ p {
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   color: white;
   text-decoration: none;
 }
