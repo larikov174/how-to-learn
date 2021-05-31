@@ -75,6 +75,11 @@ p {
   text-decoration: none;
 }
 
+.header__link:hover {
+  opacity: 50%;
+  transition: opacity 0.3s;
+}
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -266,6 +271,11 @@ p {
   color: #2f80ed;
 }
 
+.feynman__link:hover {
+  opacity: 50%;
+  transition: opacity 0.3s;
+}
+
 .feynman__image {
   position: absolute;
   bottom: 0;
@@ -384,6 +394,11 @@ p {
   font-weight: normal;
   color: white;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  opacity: 50%;
+  transition: opacity 0.3s;
 }
 
 .footer__social-icon {
