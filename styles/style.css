@@ -74,6 +74,15 @@ p {
   text-decoration: none;
 }
 
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .header__square-pic {
   position: absolute;
   right: 0;
@@ -81,6 +90,7 @@ p {
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
+  animation: rotation linear 20s infinite;
 }
 
 .header__main-illustration {
@@ -285,6 +295,7 @@ p {
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
+  animation: rotation 20s infinite;
 }
 
 .section-title_theme_dark {
