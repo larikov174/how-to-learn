@@ -1,11 +1,6 @@
-/*body,
-div,
-header,
-section,
-h1,
-p {
+* {
   border: 1px solid red;
-}*/
+}
 
 .page {
   display: block;
@@ -161,6 +156,28 @@ p {
   margin: 0;
   padding: 0;
   font-weight: bold;
+}
+
+.video{
+display: flex;
+flex-direction: column;
+position: relative;
+align-items: center;
+padding-top: 100px;
+}
+
+.video__iframes{
+display: flex;
+padding-top: 50px;
+}
+
+.video__iframe{
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:nth-child(odd) {
+  margin-right: 20px;
 }
 
 .digits {
