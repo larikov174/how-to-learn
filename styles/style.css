@@ -181,6 +181,11 @@ padding-top: 50px;
   margin-right: 20px;
 }
 
+.oakley {
+  display: flex;
+  justify-content: center;
+}
+
 .techniques {
   display: flex;
   flex-direction: column;
