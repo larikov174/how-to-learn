@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 .page {
   display: block;
@@ -158,20 +158,21 @@
   font-weight: bold;
 }
 
-.video{
-display: flex;
-flex-direction: column;
-position: relative;
-align-items: center;
-padding-top: 100px;
+.video {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding-top: 100px;
 }
 
-.video__iframes{
-display: flex;
-padding-top: 50px;
+.video__iframes {
+  display: flex;
+  padding-top: 50px;
+  margin-bottom: -50px;
 }
 
-.video__iframe{
+.video__iframe {
   width: 515px;
   height: 316px;
   border: none;
@@ -184,6 +185,8 @@ padding-top: 50px;
 .oakley {
   display: flex;
   justify-content: center;
+  background-color: #f2f2f2;
+  padding-top: 60px;
 }
 
 .techniques {
@@ -300,18 +303,17 @@ padding-top: 50px;
 
 .khan {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 100px;
-  width: 80%;
-  margin: auto;
+  padding-top: 105px;
+  justify-content: center;
+  background-color: #f2f2f2;
 }
 
-.khan__cotainer {
+.khan__container {
   margin: 0 auto;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
   width: 80%;
 }
 
@@ -331,21 +333,28 @@ padding-top: 50px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  width: 790px;
+  padding-top: 50px;
 }
 
 .khan__quote-author {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  padding-top: 36px;
 }
 
 .khan__quote-author-subline {
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
+  padding-top: 10px;
 }
 
-.khan__book-container {}
+.khan__book-container {
+  padding-top: 68px;
+  display: flex;
+}
 
 .khan__book-pic {
   height: 620px;
@@ -358,6 +367,7 @@ padding-top: 50px;
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  padding-left: 48px;
 }
 
 .khan__buy-link:hover {
@@ -384,7 +394,7 @@ padding-top: 50px;
   font-weight: bold;
   display: flex;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .feynman__subtitle {
@@ -467,6 +477,45 @@ padding-top: 50px;
   color: white;
   margin-right: 0;
   padding-top: 80px;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  padding: 80px 0 217px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.resources__logo_arzamas {
+  background-image: url(../images/logo/resources-arzamas.svg);
+}
+
+.resources__logo_n1 {
+  background-image: url(../images/logo/resources-n1.svg);
+}
+
+.resources__logo_strelka {
+  background-image: url(../images/logo/resources-strelka.svg);
+}
+
+.resources__logo_polka {
+  background-image: url(../images/logo/resources-polka.svg);
 }
 
 .footer {
