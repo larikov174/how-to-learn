@@ -1,5 +1,10 @@
 .video__iframes {
   display: flex;
+  transform: translate(0, 50px);  /*так кажется более правильно*/
+
+  /* или вот так? очень похожий результат получается,
+  /* только писать чуть дольше
   padding-top: 50px;
-  margin-bottom: -50px;  /* или transform: translate(); ? */
+  margin-bottom: -50px;
+   */
 }
