@@ -1,9 +1,9 @@
-.resources__logo_n1 {
+.resources__logo_site_n1 {
   background-image: url(../../../../images/logo/resources-n1.svg);
   transition: opacity 0.3s;
   cursor: pointer;
 }
 
-.resources__logo_n1:hover {
+.resources__logo_site_n1:hover {
   opacity: 50%;
 }
