@@ -5,15 +5,9 @@
   text-decoration: none;
   color: #2f80ed;
   padding-left: 48px;
-  /*height: 42px;
-  может нужно прямо указть высоту элемента?
-  Иначе :hover срабатывает под ссылкой.
-  В брифе ничего об этом не сказано.
-  Задумка дизайнера такая?
-  */
+  transition: opacity 0.3s;
 }
 
 .khan__buy-link:hover {
   opacity: 50%;
-  transition: opacity 0.3s;
 }
